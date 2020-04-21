@@ -1,0 +1,41 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+#box {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#email, #access{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    }
+
+#email {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+
+}
+
+#access {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: blue;
+    color: red;
+}

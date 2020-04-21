@@ -1,0 +1,48 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: bold;
+}
+
+#box, #result-box {
+    float: left;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 60px;
+}
+
+#player-number, #pc-number {
+    height: 200px;
+    width: 200px;
+}
+
+#player-number {
+    background-color: yellow;
+    color: green;
+}
+
+#pc-number {
+    background-color: green;
+    color: red;
+}
+
+#result-box {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
