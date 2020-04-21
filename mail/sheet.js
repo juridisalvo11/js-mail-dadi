@@ -1,9 +1,9 @@
 // chiedere email utente
-var user_email = prompt('Inserire email utente')
+var user_email = prompt('Inserire email utente');
 //console.log(user_email);
 
 //creare array con database email
-var email_list = ['andrea.rossi@gmail.com', 'marco.verdi@gmail.com', 'claudio75@hotmail.it', 'carlobianchi@gmail.com', 'max84@live.it']
+var email_list = ['andrea.rossi@gmail.com', 'marco.verdi@gmail.com', 'claudio75@hotmail.it', 'carlobianchi@gmail.com', 'max84@live.it'];
 //console.log(email_list);
 
 //impostare variabile e utilizzare il for per verificare se l'email è nel database
